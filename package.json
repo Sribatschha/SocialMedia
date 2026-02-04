@@ -1,0 +1,17 @@
+{
+  "name": "social-media-crud-api",
+  "version": "1.0.0",
+  "description": "Simple CRUD API for Social Media app using Node.js and MongoDB",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": ["nodejs", "mongodb", "crud", "social-media", "express"],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  }
+}
