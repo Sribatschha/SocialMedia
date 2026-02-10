@@ -20,7 +20,7 @@ const getAllPosts = async (req, res) => {
   }
 };
 
-// Read One - GET /posts/:id
+// Read One  - GET /posts/:id
 const getPostById = async (req, res) => {
   try {
     const post = await Post.findById(req.params.id);
